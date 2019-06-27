@@ -2,7 +2,7 @@
 27 June 2019
 
 ### Project Title
-Bikeshare Project
+Bikeshare Project with Python
 
 ### Description
 To explore BIkeshare US data and learn more about the system of bikeshare
