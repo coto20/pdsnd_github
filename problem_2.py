@@ -10,10 +10,10 @@
 
 import pandas as pd
 
-filename = 'chicago.csv'
+file_name = 'chicago.csv'
 
 # load data file into a dataframe
-df = pd.read_csv(filename)
+df = pd.read_csv(file_name)
 
 # print value counts for each user type
 user_types = df['User Type'].value_counts()
