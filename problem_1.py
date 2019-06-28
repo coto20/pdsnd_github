@@ -25,4 +25,4 @@ df['hour'] = df['Start Time'].dt.hour
 # find the most common hour (from 0 to 23)
 popular_hour = df['hour'].value_counts().index[0]  # df['hour'].mode()[0]
     
-print('Most Frequent Start Hour:', popular_hour)
+print('Most Frequent Start Hour: {}'.format(popular_hour))#, popular_hour)
